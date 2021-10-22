@@ -1,0 +1,67 @@
+body {
+	background: url();
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	position: absolute;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin-right: 15px
+}
+#contato form {
+	grid-area: formulario;
+	padding: 10px;
+	text-align: right;
+  }
+  #contato form input,
+  #contato form textarea{
+	display: block;
+	width: 100%;
+	margin: 5px;
+	border-radius: 5px;
+	line-height: 20px;
+  }
+  
+  #contato form input[type="submit"] {
+	display: inline;
+	width: inherit;
+	background-color: blue;
+	border: none;
+	color: #fff;
+  }
+  #contato form {
+	grid-area: formulario;
+	padding: 10px;
+	text-align: right;
+  }
+  #contato form input,
+  #contato form textarea{
+	display: block;
+	width: 100%;
+	margin: 5px;
+	border-radius: 5px;
+	line-height: 20px;
+  }
+  
+  #contato form input[type="submit"] {
+	display: inline;
+	width: inherit;
+	background-color: blue;
+	border: none;
+	color: #fff;
+  }
+  #contato{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 'h2 h2'
+	'formulario enderecoTelefones';
+	grid-gap: 10px;
+  }
